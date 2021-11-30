@@ -75,10 +75,6 @@ export default {
     }
   },
 
-  router: {
-    middleware: ['checkAuth']
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
