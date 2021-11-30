@@ -11,10 +11,7 @@ export default {
   },
   computed: {
     idUser () {
-      const a = this.$route.params.idUser
-      console.log(a)
-      return a
-      // return this.$route.params.idUser
+      return this.$route.params.idUser
     }
   }
 }

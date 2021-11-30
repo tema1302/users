@@ -1,5 +1,5 @@
 export const state = () => ({
-  aaa: [
+  users: [
     {
       name: 'User 1'
     },
@@ -12,5 +12,5 @@ export const state = () => ({
   ]
 })
 export const getters = {
-  getUsers: state => state.aaa
+  getUsers: state => state.users
 }

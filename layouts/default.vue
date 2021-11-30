@@ -14,6 +14,7 @@
 
 <script>
 export default {
+  middleware: 'checkAuth',
   data () {
     return {
       clipped: false,

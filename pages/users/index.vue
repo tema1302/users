@@ -14,6 +14,7 @@
 import { mapGetters } from 'vuex'
 
 export default {
+  middleware: 'checkAuth',
   computed: {
     ...mapGetters({
       users: 'users/getUsers'
